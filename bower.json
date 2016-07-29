@@ -1,0 +1,21 @@
+{
+  "name": "uber",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "themewagon <www.themewagon.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

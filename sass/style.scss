@@ -1,0 +1,478 @@
+
+$roboto: 'Roboto', sans-serif;
+
+$source: 'Source Sans Pro', sans-serif;
+$text-black-40: #9D9DA3;
+
+body {
+    line-height: 1;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    font-family: $roboto;
+    font-weight: 100;
+    font-size: 16px;
+    position: relative;
+    overflow-x:hidden;
+}
+
+/***************************************/
+// Typography 
+/***************************************/
+
+html {font-size: 1em;}
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 1.45;
+  color: #000;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 0 !important;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+
+.full--width{
+	width: 100%;
+}
+.display--table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.display--block {
+	display: block !important;
+}
+.display--inline-block{
+	display: inline-block !important;
+}
+.position--relative{
+	position: relative !important;
+}
+.position--absolute{
+	position: absolute;
+}
+.bordere--box{
+	box-sizing: border-box;
+}
+.overflow--hidden{
+	overflow: hidden;
+}
+
+.height--hero {
+	@media only screen and (min-width: 1350px){
+		height: calc(100vh - 50px);
+    	max-height: 1100px;
+    	min-height: 850px;
+	}
+    
+}
+.text-wraper {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.one-tenth{
+	width:10%;
+}
+.two-tenth{
+	width: 20%;
+}
+.three-tenth{
+	width: 30%;
+}
+.four-tenth{
+	width: 40%;
+}
+.fifth-tenth{
+	width: 50%;
+}
+.sixth-tenth{
+	width: 60%;
+}
+.seven-tenth{
+	width: 70%;
+}
+.eight-tenth{
+	width: 80%;
+}
+.nine-tenth{
+	width: 90%;
+}
+.push--left-one{
+	margin-left: 10%;
+}
+.push--left-two{
+	margin-left: 20%;
+}
+.push--left-three{
+	margin-left: 30%;
+}
+.push--left-four{
+	margin-left: 40%;
+}
+.push--left-five{
+	margin-left: 50%;
+}
+.push--left-six{
+	margin-left: 60%;
+}
+.push--left-seven{
+	margin-left: 70%;
+}
+.push--left-eight{
+	margin-left: 80%;
+}
+.push--left-nine{
+	margin-left: 90%;
+}
+.push-left-five-ninths {
+    margin-left: calc(100% / 9 * 5);
+}
+.four-ninths {
+    width: calc(100% / 9 * 4);
+}
+.one-halves {
+    width: calc(100% / 2 * 1) ;
+}
+.text-black-40{
+	color:#9D9DA3;
+}
+.text-uppercase{
+	text-transform: uppercase;
+}
+.font--weight-400{
+	font-weight: 400;
+}
+.text-bold{
+	font-weight: bold;
+}
+.text-black{
+	color: black;
+}
+.push-large--top {
+	@media only screen and (min-width: 1350px){
+		margin-top: 72px;
+	}
+}
+
+.push-default--bottom {
+	@media only screen and (min-width: 1350px){
+		margin-bottom: 48px;
+	}
+}
+
+
+.push-huge--top {
+	@media only screen and (min-width: 1350px){
+		margin-top: 96px;
+	}
+}
+
+.soft-app-icon--bottom {
+	@media only screen and (min-width: 1350px){
+		padding-bottom: 288px;
+	}
+}
+
+[class*="gutter"] {
+	@media only screen and (max-width: 1400px) and (min-width: 850px){
+		position: absolute;
+	    top: 0px;
+	    display: block;
+	    width: 25px;
+	    height: 100%;
+	}  
+}
+.gutter-left{
+	left: 0;
+
+}
+.gutter-right{
+	right: 0;
+}
+
+.bg-white-40 {
+    background-color: #E5E5E4;
+}
+
+.padding--square {
+    padding-bottom: 100%;
+}
+.height-inherit{
+	height: inherit;
+}
+.fill-tblr{
+	left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.rect-border {
+    border: 30px solid #ade6d1;
+}
+.vertical-top{
+	top: 0;
+}
+
+.z-negative-1{
+	z-index: -1;
+}
+.left-three-tenths{
+	left: 30%;
+}
+.whole{
+	width: 100%;
+}
+.bg-grid {
+    width: 1300px;
+}
+
+
+.push-banner--bottom {
+	@media only screen and (min-width: 1350px){
+		margin-bottom: 144px;
+	}
+    
+}
+
+.push-banner--top {
+	@media only screen and (min-width: 1350px){
+		margin-top: 144px;
+	}
+    
+}
+
+/***************************
+// New Styles
+/****************************/
+
+.section{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.display--inline-block{
+	display: inline-block;
+}
+.vertical--top{
+	vertical-align: top;
+}
+.height--inherit{
+	height: inherit;
+}
+
+
+.vertical--baseline {
+    vertical-align: baseline !important;
+}
+
+a, a:active, a:visited, a:hover, a:link {
+    text-decoration: none;
+}
+/****************************
+// Margin
+/****************************/
+
+.push-banner--bottom {
+	@media only screen and (min-width: 1350px){
+		margin-bottom: 144px;
+	}
+    
+}
+
+.push-banner--top {
+	@media only screen and (min-width: 1350px){
+		margin-top: 144px;
+	}
+    
+}
+
+
+.push-default--bottom {
+	@media only screen and (min-width: 1350px){
+		margin-bottom: 48px;
+	}
+}
+
+
+
+.push-large--top {
+	@media only screen and (min-width: 1350px){
+		margin-top: 72px;
+	}
+}
+
+.push-left--icon {
+    margin-left: 20px;
+}
+/******************************
+// Width
+/******************************/
+.whole{
+
+	width:100%;
+}
+.half{
+	width:50%;
+}
+.md-half{
+	width: 100%;
+	@media only screen and (min-width : 768px) {
+		width: 50%;
+	}
+}
+
+.eight-tenth{
+	width:80%;
+}
+.nine-tenth{
+	width: 90%;
+}
+.four-ninth {
+    width: calc(100% / 9 * 4);
+}
+
+/************************************
+// Push
+/************************************/
+.md-push--ten-fifth{
+	left: 0;
+	@media only screen and (min-width : 768px) {
+		left: 50%;
+	}
+}
+
+
+/************************************
+// Push with margin
+/************************************/
+.push-left-two-tenths {
+    margin-left: 20%;
+}
+.push-left-five-ninths {
+    margin-left: calc(100% / 9 * 5);
+}
+
+
+/************************************
+// Z-Index
+/************************************/
+.z-10{
+	z-index: 10;
+}
+
+/****************************
+// Text Mast
+/****************************/
+.text-mask{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+
+
+/********************************
+/ Typography
+//******************************/
+.epsilon {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.push--zero{
+	margin: 0px !important;
+}
+.kilo {
+    font-size: 64px;
+    line-height: 76px;
+    letter-spacing: -2px;
+}
+.font--weight-100{
+	font-weight: 100;
+}
+.font--weight-400{
+	font-weight: 400;
+}
+.font--weight-500{
+	font-weight: 500;
+}
+.small {
+	@media only screen and (min-width: 1350px){
+		font-size: 14px;
+	    line-height: 26px;
+	    font-weight: 400;
+	    letter-spacing: 0.07px;
+	}
+	    
+}
+.font-white {
+    color: #ffffff !important;
+}
+.all-caps {
+    text-transform: uppercase;
+    letter-spacing: 0.5px !important;
+}
+strong, .strong {
+    font-weight: 600 !important;
+}
+/*************************************
+// Button
+/*************************************/
+.button {
+    display: inline-block;
+    position: relative;
+    padding: 14px 24px;
+    cursor: pointer;
+    clear: both;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/************************************************
+// Color
+/************************************************/
+.color-palette-2-border {
+    border-color: #12939a !important;
+}
+.color-palette-2-font-cta {
+    color: #12939a;
+    background-color: #12939a;
+    color: #ffffff;
+}
+.uber-black-40 {
+    color: #9D9DA3;
+}
